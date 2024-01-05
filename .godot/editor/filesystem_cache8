@@ -1,7 +1,8 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704416085
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1704426556
 .gut_editor_config.json::JSON::-1::1704328303::0::1::::<><>::
 default_env.tres::Environment::-1::1704328304::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1704426288::0::1::::<><>::
 fredoka-one.one-regular.ttf::FontFile::3804495213753091273::1704328304::1704328304::1::::<><>::
 icon.png::CompressedTexture2D::2340807530280479767::1704328304::1704328304::1::::<><>::
 icon.svg::CompressedTexture2D::740490826357308565::1704328304::1704328325::1::::<><>::
@@ -192,10 +193,14 @@ shape_render.gd::GDScript::-1::1704328304::0::1::::SS2D_Shape_Render<>Node2D<>::
 Coin.gd::GDScript::-1::1704328303::0::1::::<>Area2D<>::
 Fuel.gd::GDScript::-1::1704328303::0::1::::<>Area2D<>::
 levelmanager.gd::GDScript::-1::1704412212::0::1::::<>Node2D<>::
-::res://Images/::1704423447
-::res://Images/Botones/::1704423479
+::res://Images/::1704427024
+creditos.tscn::PackedScene::-1::1704426943::0::1::::<><>::
+Espol.png::CompressedTexture2D::445964966420008773::1704427017::1704427029::1::::<><>::
+::res://Images/Botones/::1704426951
+Beautiful_Lounge_-_Sergey_Gulevich.mp3::AudioStreamMP3::1672249490572406221::1704426951::1704426951::1::::<><>::
 b_6.png::CompressedTexture2D::9128213579736488244::1704423466::1704423480::1::::<><>::
 b_7.png::CompressedTexture2D::1062207838800785575::1704423479::1704423480::1::::<><>::
+inspiring-cinematic-ambient-116199.mp3::AudioStreamMP3::8520305882571160501::1704425090::1704425107::1::::<><>::
 ::res://Images/Car/::1704418299
 Car.png::CompressedTexture2D::389613777866624042::1704328303::1704328303::1::::<><>::
 RedCar.png::CompressedTexture2D::3431999572214397381::1704328303::1704328303::1::::<><>::
@@ -210,9 +215,9 @@ Body2.png::CompressedTexture2D::8695486984841622284::1704328303::1704328303::1::
 Body.png::CompressedTexture2D::3547279361890796806::1704328303::1704328303::1::::<><>::
 Head2.png::CompressedTexture2D::2448790236778641663::1704328303::1704328303::1::::<><>::
 Head.png::CompressedTexture2D::472822526397843552::1704328303::1704328303::1::::<><>::
-::res://Images/Levels/::1704422637
+::res://Images/Levels/::1704426675
 levelmanager.gd::GDScript::-1::1704328303::0::1::::<>Node2D<>::
-nivel_1.tscn::PackedScene::8848083015664699000::1704422637::0::1::::<><>::uid://cucwxyky3ybyh::::res://Scenes/jugador.tscn<>res://Code/levelmanager.gd<>uid://c04jddv0od2tr::::res://Scenes/Fuel.tscn<>res://addons/rmsmartshape/shapes/shape_closed.gd<>uid://v46qx2ee7t2u::::res://Scenes/ui.tscn<>res://addons/rmsmartshape/vertex_properties.gd<>res://addons/rmsmartshape/shapes/point_array.gd<>res://addons/rmsmartshape/shapes/point.gd<>uid://4s0pjeqyxbac::::res://Layers/sky.png<>res://addons/rmsmartshape/materials/shape_material.gd<>res://addons/rmsmartshape/materials/edge_material.gd<>uid://3nwoxmnqg3dp::::res://Layers/far-clouds.png<>uid://dmlfpm21srco0::::res://Layers/near-clouds.png<>uid://bc8r55okx3m4l::::res://Layers/far-mountains.png<>res://addons/rmsmartshape/normal_range.gd<>uid://b3c4v6judrn5j::::res://Layers/mountains.png<>res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dhwxl4u023aek::::res://Layers/trees.png<>uid://bttm803j48k68::::res://Scenes/Coin.tscn<>uid://d0kyjv4yewxbo::::res://Images/Terrain/suelo.png<>uid://ch0fg7iuu8el1::::res://Images/Terrain/suelbg1.png<>uid://8k0neh1t6ibn::::res://Images/Car/suelo.png<>res://addons/rmsmartshape/shapes/shape_open.gd
+nivel_1.tscn::PackedScene::8848083015664699000::1704426675::0::1::::<><>::uid://cucwxyky3ybyh::::res://Scenes/jugador.tscn<>res://Code/levelmanager.gd<>uid://c04jddv0od2tr::::res://Scenes/Fuel.tscn<>res://addons/rmsmartshape/shapes/shape_closed.gd<>uid://v46qx2ee7t2u::::res://Scenes/ui.tscn<>res://addons/rmsmartshape/vertex_properties.gd<>res://addons/rmsmartshape/shapes/point_array.gd<>res://addons/rmsmartshape/shapes/point.gd<>uid://4s0pjeqyxbac::::res://Layers/sky.png<>res://addons/rmsmartshape/materials/shape_material.gd<>res://addons/rmsmartshape/materials/edge_material.gd<>uid://3nwoxmnqg3dp::::res://Layers/far-clouds.png<>uid://dmlfpm21srco0::::res://Layers/near-clouds.png<>uid://bc8r55okx3m4l::::res://Layers/far-mountains.png<>res://addons/rmsmartshape/normal_range.gd<>uid://b3c4v6judrn5j::::res://Layers/mountains.png<>res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dhwxl4u023aek::::res://Layers/trees.png<>uid://bttm803j48k68::::res://Scenes/Coin.tscn<>uid://d0kyjv4yewxbo::::res://Images/Terrain/suelo.png<>uid://ch0fg7iuu8el1::::res://Images/Terrain/suelbg1.png<>uid://8k0neh1t6ibn::::res://Images/Car/suelo.png<>res://addons/rmsmartshape/shapes/shape_open.gd
 ::res://Images/Meow Knight/::1704328303
 Meow-Knight_Attack_1.png::CompressedTexture2D::2439008406586499158::1704328303::1704328303::1::::<><>::
 Meow-Knight_Attack_2.png::CompressedTexture2D::8218922395443819308::1704328303::1704328303::1::::<><>::
@@ -267,15 +272,15 @@ mountains.png::CompressedTexture2D::4357636998568853553::1704412212::1704412212:
 near-clouds.png::CompressedTexture2D::8024567375098722085::1704412212::1704412212::1::::<><>::
 sky.png::CompressedTexture2D::2074180456453063102::1704412212::1704412212::1::::<><>::
 trees.png::CompressedTexture2D::7697417956947737282::1704412212::1704412212::1::::<><>::
-::res://Scenes/::1704422638
+::res://Scenes/::1704426675
 Coin.tscn::PackedScene::3760020782042170719::1704408645::0::1::::<><>::res://Code/Coin.gd<>uid://bks54efejpc71::::res://Images/Pickups/Coin5.png<>uid://jdmm6trn6bpo::::res://Audio/Coin.wav
-Fuel.tscn::PackedScene::6587981414687045339::1704422638::0::1::::<><>::res://Code/Fuel.gd<>uid://ci28grkwo75u3::::res://Images/Pickups/Fuel.png
-Inicio.tscn::PackedScene::275492247958962442::1704422638::0::1::::<><>::uid://bug6qli1adqyb::::res://fredoka-one.one-regular.ttf<>uid://irsnc3kua8hw::::res://Images/Meow Knight/Meow-Knight_Idle head.png
+Fuel.tscn::PackedScene::6587981414687045339::1704426675::0::1::::<><>::res://Code/Fuel.gd<>uid://ci28grkwo75u3::::res://Images/Pickups/Fuel.png
+Inicio.tscn::PackedScene::275492247958962442::1704426675::0::1::::<><>::uid://bug6qli1adqyb::::res://fredoka-one.one-regular.ttf<>uid://irsnc3kua8hw::::res://Images/Meow Knight/Meow-Knight_Idle head.png
 jugador.gd::GDScript::-1::1704421882::0::1::::<>RigidBody2D<>::
-jugador.tscn::PackedScene::6182125119892904635::1704422638::0::1::::<><>::uid://7mx2bmawt0s6::::res://Scenes/wheel.tscn<>res://Scenes/jugador.gd<>uid://fsy48ub6ghgc::::res://Images/Car/Car.png<>uid://b3dir3ln7dnt1::::res://Images/Meow Knight/Meow-Knight_Idle body.png<>uid://irsnc3kua8hw::::res://Images/Meow Knight/Meow-Knight_Idle head.png<>uid://cb4cc6nj2xbgr::::res://Images/Car/tortupart.png
-UI.gd::GDScript::-1::1704422638::0::1::::<>CanvasLayer<>::
-ui.tscn::PackedScene::1535744720679792502::1704422638::0::1::::<><>::uid://bks54efejpc71::::res://Images/Pickups/Coin5.png<>res://Scenes/UI.gd<>uid://ci28grkwo75u3::::res://Images/Pickups/Fuel.png<>uid://bug6qli1adqyb::::res://fredoka-one.one-regular.ttf
-wheel.tscn::PackedScene::2272260307825993311::1704422638::0::1::::<><>::uid://ckcxprco4moyp::::res://Images/Car/Wheel.png
+jugador.tscn::PackedScene::6182125119892904635::1704426675::0::1::::<><>::uid://7mx2bmawt0s6::::res://Scenes/wheel.tscn<>res://Scenes/jugador.gd<>uid://fsy48ub6ghgc::::res://Images/Car/Car.png<>uid://b3dir3ln7dnt1::::res://Images/Meow Knight/Meow-Knight_Idle body.png<>uid://irsnc3kua8hw::::res://Images/Meow Knight/Meow-Knight_Idle head.png<>uid://cb4cc6nj2xbgr::::res://Images/Car/tortupart.png
+UI.gd::GDScript::-1::1704423581::0::1::::<>CanvasLayer<>::
+ui.tscn::PackedScene::1535744720679792502::1704426675::0::1::::<><>::uid://bks54efejpc71::::res://Images/Pickups/Coin5.png<>res://Scenes/UI.gd<>uid://ci28grkwo75u3::::res://Images/Pickups/Fuel.png<>uid://pesn4sw5fa76::::res://Images/Botones/b_7.png<>uid://bug6qli1adqyb::::res://fredoka-one.one-regular.ttf<>uid://d3b1lxw7mpxmi::::res://Images/Botones/b_6.png
+wheel.tscn::PackedScene::2272260307825993311::1704426675::0::1::::<><>::uid://ckcxprco4moyp::::res://Images/Car/Wheel.png
 ::res://scripts/::1704328304
 ::res://scripts/linux/::1704328304
 ::res://scripts/windows/::1704328304

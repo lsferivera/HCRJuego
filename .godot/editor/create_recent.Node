@@ -1,3 +1,4 @@
+AudioStreamPlayer
 TouchScreenButton
 CanvasLayer
 Button
@@ -12,4 +13,3 @@ Sprite2D
 Node2D
 VBoxContainer
 ParallaxLayer
-ParallaxBackground

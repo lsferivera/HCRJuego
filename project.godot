@@ -16,6 +16,10 @@ config/features=PackedStringArray("4.2", "Mobile")
 boot_splash/fullsize=false
 config/icon="res://icon.svg"
 
+[autoload]
+
+Bgmusic="*res://Audio/Scenes/bgmusic.tscn"
+
 [display]
 
 window/size/viewport_width=1920
@@ -33,4 +37,5 @@ pointing/emulate_touch_from_mouse=true
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.25098, 0.717647, 0.882353, 1)
