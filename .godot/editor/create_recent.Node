@@ -1,3 +1,6 @@
+TouchScreenButton
+CanvasLayer
+Button
 CollisionPolygon2D
 CollisionShape2D
 SS2D_Shape_Closed
@@ -10,5 +13,3 @@ Node2D
 VBoxContainer
 ParallaxLayer
 ParallaxBackground
-Camera2D
-StaticBody2D
