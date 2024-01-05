@@ -1,17 +1,21 @@
-[gd_scene load_steps=7 format=3 uid="uid://cucwxyky3ybyh"]
+[gd_scene load_steps=9 format=3 uid="uid://cucwxyky3ybyh"]
 
 [ext_resource type="PackedScene" uid="uid://7mx2bmawt0s6" path="res://Scenes/wheel.tscn" id="1_2j1xg"]
 [ext_resource type="Script" path="res://Scenes/jugador.gd" id="1_h0sr3"]
 [ext_resource type="Texture2D" uid="uid://fsy48ub6ghgc" path="res://Images/Car/Car.png" id="2_bx185"]
 [ext_resource type="Texture2D" uid="uid://b3dir3ln7dnt1" path="res://Images/Meow Knight/Meow-Knight_Idle body.png" id="2_qq3gd"]
 [ext_resource type="Texture2D" uid="uid://irsnc3kua8hw" path="res://Images/Meow Knight/Meow-Knight_Idle head.png" id="5_8wtii"]
+[ext_resource type="Texture2D" uid="uid://cb4cc6nj2xbgr" path="res://Images/Car/tortupart.png" id="6_2okse"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ukc8s"]
 radius = 82.0549
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_ck6an"]
+radius = 5.14401
+
 [node name="Jugador" type="RigidBody2D" groups=["Jugador"]]
 collision_layer = 7
-mass = 5.07
+mass = 2.02
 gravity_scale = 8.0
 script = ExtResource("1_h0sr3")
 
@@ -55,7 +59,6 @@ node_b = NodePath("wheel2")
 softness = 1.92
 
 [node name="wheel2" parent="PinJoint2D" instance=ExtResource("1_2j1xg")]
-collision_layer = 7
 
 [node name="PinJoint2D2" type="PinJoint2D" parent="."]
 position = Vector2(109, 94)
@@ -64,7 +67,6 @@ node_b = NodePath("wheel2")
 softness = 1.92
 
 [node name="wheel2" parent="PinJoint2D2" instance=ExtResource("1_2j1xg")]
-collision_layer = 7
 
 [node name="Carro" type="Sprite2D" parent="."]
 texture_filter = 1
@@ -79,5 +81,32 @@ polygon = PackedVector2Array(-227, -38, -227, 78, 220, 82, 214, -3, 8, -58, -11,
 [node name="GameOverTimer" type="Timer" parent="."]
 wait_time = 5.0
 one_shot = true
+
+[node name="Tortu" type="RigidBody2D" parent="."]
+position = Vector2(-133, -116)
+collision_layer = 8
+mass = 0.85
+
+[node name="Sprite2D" type="Sprite2D" parent="Tortu"]
+position = Vector2(-40.5242, 11.5521)
+rotation = -0.261799
+scale = Vector2(0.368056, 0.368056)
+texture = ExtResource("6_2okse")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tortu"]
+position = Vector2(-40.5242, 12.5521)
+shape = SubResource("CircleShape2D_ck6an")
+
+[node name="PinJoint2D3" type="PinJoint2D" parent="Tortu"]
+position = Vector2(-40.5242, 12.5521)
+node_a = NodePath("../..")
+node_b = NodePath("..")
+softness = 16.0
+
+[node name="PinJoint2D4" type="PinJoint2D" parent="Tortu"]
+position = Vector2(-46, 71)
+node_a = NodePath("../..")
+node_b = NodePath("..")
+softness = 16.0
 
 [connection signal="timeout" from="GameOverTimer" to="." method="_on_game_over_timer_timeout"]
